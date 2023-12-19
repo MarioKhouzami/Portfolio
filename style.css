@@ -56,8 +56,6 @@ body {
 }
 .content {
   max-width: 600px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 .content h3 {
   font-size: 32px;
@@ -102,29 +100,4 @@ span {
 }
 html {
   scroll-behavior: smooth;
-}
-@media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column; /* Stack navigation links in a column */
-    align-items: center; /* Center align navigation links */
-  }
-
-  .navbar a {
-    margin: 10px 0; /* Add some spacing between navigation links */
-  }
-
-  .header {
-    padding-right: 5%; /* Adjust padding for smaller screens */
-  }
-
-  .home {
-    padding: 70px 5%; /* Adjust padding for smaller screens */
-  }
-
-  .image-container {
-    top: 0;
-    right: 0;
-    width: 100%; /* Make the image container full width */
-    height: auto; /* Auto adjust height */
-  }
 }
